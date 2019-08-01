@@ -1,0 +1,13 @@
+{
+    "name": "insomnia-plugin-RTsoft",
+    "version": "1.0.0",
+    "main": "index.js",
+
+    "insomnia": {                    
+        "name": "RTsoft",      
+        "description": "RTsoft plugin umožňuje zasílání requestů pro univerzální API"
+    },
+
+    "dependencies": [],
+    "devDependencies": []
+}
