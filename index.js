@@ -2,8 +2,10 @@ const crypto = require('crypto');
 
 // konstanty klíčů
 
-const ACCESS_KEY = 'access key';
-const SIGNING_KEY = 'signing key';
+const PREFIX = 'HMAC-';
+
+const ACCESS_KEY = PREFIX + 'accessKey';
+const SIGNING_KEY = PREFIX + 'signingKey';
 
 // konstanta signature metody
 
