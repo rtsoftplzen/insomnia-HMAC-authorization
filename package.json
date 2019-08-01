@@ -1,5 +1,5 @@
 {
-    "name": "insomnia-plugin-RTsoft",
+    "name": "insomnia-plugin-HMAC-authorization",
     "version": "1.0.0",
     "main": "index.js",
 
@@ -7,7 +7,4 @@
         "name": "RTsoft",      
         "description": "RTsoft plugin umožňuje zasílání requestů pro univerzální API"
     },
-
-    "dependencies": [],
-    "devDependencies": []
 }
