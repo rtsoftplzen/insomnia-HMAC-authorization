@@ -6,5 +6,5 @@
     "insomnia": {                    
         "name": "RTsoft",      
         "description": "RTsoft plugin umožňuje zasílání requestů pro univerzální API"
-    },
+    }
 }
