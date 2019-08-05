@@ -20,7 +20,7 @@ module.exports.requestHooks = [
     if (names.includes(ACCESS_KEY) && names.includes(SIGNING_KEY)) {
       let accessKey, signingKey;
 
-      headers.map(header => header.name === ACCESS_KEY ? accessKey = header.value : signingKey = header.value);
+      headers.map(header => header.name === ACCESS_KEY ? accessKey = header.value : header.name === SIGNING_KEY ? signingKey = header.value : null);
 
       const timestamp = Math.round(+new Date() / 1000);
       const signatureObject = {
